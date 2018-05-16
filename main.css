@@ -1,0 +1,81 @@
+
+.container {
+    position: relative;
+}
+
+.center {
+    position: absolute;
+    left: 0;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.subheader {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 12.5px;
+    padding-top: 40px;
+}
+
+img#utah-2017 {
+    width: 100%; 
+    height: 100%;
+    opacity: 0.7;
+    margin: 0; 
+    padding: 0;
+    max-height: 100%;
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0 20px;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    position: absolute;
+    top: 0px; 
+    right: 0px;
+    color: rgb(103, 93, 96);
+    padding-top: 12px;
+}
+
+li {
+    display: inline;
+    float: right;
+    padding: 25px;
+    margin: 0;
+}
+
+.about {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    text-align: center;
+
+    color: rgb(103, 93, 96);
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 12.5px;
+}
+
+img#icon {
+    width: 12.5%; 
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
