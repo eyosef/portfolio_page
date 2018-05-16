@@ -73,9 +73,55 @@ li {
 }
 
 img#icon {
-    width: 12.5%; 
+    max-width: 12.5%; 
     height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.responsive-icons{
+    width: 100%; 
+    margin: 1em auto; 
+
+}
+
+img#ruby-icon {
+    position: absolute;
+    max-width: 5%; 
+    float: left; 
+    top: 125px; 
+    left: 450px;
+}
+
+img#java-icon {
+    position: absolute;
+    max-width: 5%; 
+    float: left; 
+    top: 125px; 
+    left: 355px;
+}
+
+img#react-icon {
+    position: absolute;
+    max-width: 5%; 
+    float: left; 
+    top: 125px; 
+    left: 265px;
+}
+
+img#html-icon {
+    position: absolute;
+    max-width: 5%; 
+    float: right; 
+    top: 125px; 
+    right: 460px;
+}
+
+img#css-icon {
+    position: absolute;
+    max-width: 5%; 
+    float: right; 
+    top: 125px; 
+    right: 380px;
 }
