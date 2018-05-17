@@ -69,7 +69,7 @@ li {
     color: rgb(103, 93, 96);
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
-    font-size: 12.5px;
+    font-size: 20px;
 }
 
 img#icon {
@@ -80,16 +80,37 @@ img#icon {
     margin-right: auto;
 }
 
-@media (max-width: 768px) { 
-    img {
-        display: block;
-        margin: 8px auto;
+@media screen and (max-width: 700px) {
+    img#icon {
+      max-width: 30%;
     }
+  }
 
-.responsive-icons{
-    width: 100%; 
-    margin: 1em auto; 
+.responsive-icons {
+    float: left;
+    width: 25%;
+  }
+
+.about-content {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: rgb(103, 93, 96);
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
 }
+
+@media screen and (max-width: 1200px) {
+    .responsive-icons {
+      display: none;
+    }
+  }
+
+@media screen and (max-width: 600px) {
+    .about {
+      font-size: 25px;
+    }
+  }
 
 img#ruby-icon {
     position: absolute;
@@ -102,14 +123,14 @@ img#java-icon {
     position: absolute;
     float: left; 
     top: 125px; 
-    left: 355px;
+    left: 350px;
 }
 
 img#react-icon {
     position: absolute;
     float: left; 
     top: 125px; 
-    left: 265px;
+    left: 250px;
 }
 
 
@@ -117,12 +138,12 @@ img#html-icon {
     position: absolute;
     float: right; 
     top: 125px; 
-    right: 460px;
+    right: 450px;
 }
 
 img#css-icon {
     position: absolute;
     float: right; 
     top: 125px; 
-    right: 355px;
+    right: 350px;
 }
