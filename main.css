@@ -80,15 +80,19 @@ img#icon {
     margin-right: auto;
 }
 
+@media (max-width: 768px) { 
+    img {
+        display: block;
+        margin: 8px auto;
+    }
+
 .responsive-icons{
     width: 100%; 
     margin: 1em auto; 
-
 }
 
 img#ruby-icon {
     position: absolute;
-    max-width: 5%; 
     float: left; 
     top: 125px; 
     left: 450px;
@@ -96,7 +100,6 @@ img#ruby-icon {
 
 img#java-icon {
     position: absolute;
-    max-width: 5%; 
     float: left; 
     top: 125px; 
     left: 355px;
@@ -104,15 +107,14 @@ img#java-icon {
 
 img#react-icon {
     position: absolute;
-    max-width: 5%; 
     float: left; 
     top: 125px; 
     left: 265px;
 }
 
+
 img#html-icon {
     position: absolute;
-    max-width: 5%; 
     float: right; 
     top: 125px; 
     right: 460px;
@@ -120,8 +122,7 @@ img#html-icon {
 
 img#css-icon {
     position: absolute;
-    max-width: 5%; 
     float: right; 
     top: 125px; 
-    right: 380px;
+    right: 355px;
 }
