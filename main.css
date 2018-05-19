@@ -190,10 +190,9 @@ img#css-icon {
     text-align: center;
     color: rgb(103, 93, 96);
     font-family: 'Poppins', sans-serif;
-    font-weight: bold;
     font-size: 20px;
     padding: 10px;
-    padding-top: 30px;
+    padding-top: 60px;
     z-index: 1;
   }
 
@@ -204,12 +203,14 @@ img#css-icon {
     }
   }
 
-  .images {
-    position: absolute;
-    float: right; 
-    color: rgb(103, 93, 96);
-    padding: 10px;
-    padding-top: 30px;
+  .work-content {
+      float: left;
+      width: 40%;
+      padding-top: 150px;
+      padding-left: 50px;
+      font-family: 'Tajawal', sans-serif;
+      font-size: 22px;
   }
+
 
 
