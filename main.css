@@ -173,6 +173,7 @@ img#css-icon {
   @media (max-width: 600px) {
     .skills-col {
       padding-bottom: 25px;
+      width: 100%;
     }
   }
 
