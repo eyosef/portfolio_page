@@ -91,15 +91,6 @@ img#icon {
     width: 25%;
   }
 
-.about-content {
-    position: absolute;
-    width: 100%;
-    text-align: center;
-    color: rgb(103, 93, 96);
-    font-family: 'Dosis', sans-serif;
-    font-size: 20px;
-}
-
 @media screen and (max-width: 1200px) {
     .responsive-icons {
       display: none;
@@ -115,35 +106,86 @@ img#icon {
 img#ruby-icon {
     position: absolute;
     float: left; 
-    top: 125px; 
-    left: 450px;
+    top: 150px; 
+    left: 430px;
 }
 
 img#java-icon {
     position: absolute;
     float: left; 
-    top: 125px; 
-    left: 350px;
+    top: 150px; 
+    left: 280px;
 }
 
 img#react-icon {
     position: absolute;
     float: left; 
-    top: 125px; 
-    left: 250px;
+    top: 150px; 
+    left: 130px;
 }
 
 
 img#html-icon {
     position: absolute;
     float: right; 
-    top: 125px; 
-    right: 450px;
+    top: 150px; 
+    right: 425px;
 }
 
 img#css-icon {
     position: absolute;
     float: right; 
-    top: 125px; 
-    right: 350px;
+    top: 150px; 
+    right: 275px;
 }
+
+.about-content {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: rgb(103, 93, 96);
+    font-family: 'Tajawal', sans-serif;
+    font-size: 20px;
+}
+
+.flex-grid {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills-col {
+    flex: 1;
+    width: 32%;
+    text-align: center;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 30px;
+    color: rgb(103, 93, 96);
+}
+
+@media (max-width: 600px) {
+    .flex-grid {
+      display: block;
+      margin: 0 auto;
+      padding-top: 100px;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .skills-col {
+      padding-bottom: 25px;
+    }
+  }
+
+  .portfolio-content {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    text-align: center;
+    color: rgb(103, 93, 96);
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    
+    height: 100%;
+    background-color: rbg(232, 221, 190);
+  }
