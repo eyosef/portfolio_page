@@ -255,17 +255,65 @@ img#css-icon {
     padding-bottom: 200px;
   }
 
+  @media (max-width: 450px) {
+    p#email {
+        font-size: 30px;
+    }
+ }
+
 img#twitter-icon {
     position: absolute;
     float: left; 
     left: 500px;
 }
 
+ @media (max-width: 1000px) {
+    img#twitter-icon {
+        float: left; 
+        left: 300px;
+    }
+ }
+
+ @media (max-width: 700px) {
+    img#twitter-icon {
+        float: left; 
+        left: 150px;
+    }
+ }
+
+ @media (max-width: 450px) {
+    img#twitter-icon {
+        float: left; 
+        left: 75px;
+    }
+ }
+
 img#wordpress-icon {
     position: absolute;
     float: left; 
     left: 700px;
 }
+
+@media (max-width: 1000px) {
+    img#wordpress-icon {
+        float: left; 
+        left: 550px;
+    }
+ }
+
+ @media (max-width: 700px) {
+    img#wordpress-icon {
+        float: left; 
+        left: 400px;
+    }
+ }
+
+ @media (max-width: 450px) {
+    img#wordpress-icon {
+        float: left; 
+        left: 250px;
+    }
+ }
 
 
 img#github-icon {
@@ -275,12 +323,55 @@ img#github-icon {
     bottom: 350px;
 }
 
+@media (max-width: 1000px) {
+    img#github-icon {
+        float: left; 
+        left: 300px;
+    }
+ }
+
+ @media (max-width: 700px) {
+    img#github-icon {
+        float: left; 
+        left: 150px;
+    }
+ }
+
+ @media (max-width: 450px) {
+    img#github-icon {
+        float: left; 
+        left: 75px;
+    }
+ }
+
 img#linkedin-icon {
     position: absolute;
     float: left; 
     left: 700px;
     bottom: 350px;
 }
+
+@media (max-width: 1000px) {
+    img#linkedin-icon {
+        float: left; 
+        left: 550px;
+    }
+ }
+
+ @media (max-width: 700px) {
+    img#linkedin-icon {
+        float: left; 
+        left: 400px;
+    }
+ }
+
+ @media (max-width: 450px) {
+    img#linkedin-icon {
+        float: left; 
+        left: 250px;
+    }
+ }
+
 
 .footer {
     position: absolute;
