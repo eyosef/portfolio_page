@@ -196,7 +196,7 @@ img#css-icon {
     z-index: 1;
   }
 
-  @media (max-width: 700px) {
+  @media (max-width: 900px) {
     img#green-thumb {
       padding-top: 25px;
       padding-bottom: 25px;
@@ -213,11 +213,70 @@ img#css-icon {
       font-size: 22px;
   }
 
-  @media (max-width: 600px) {
+  @media (max-width: 875px) {
     .work-content {
-      float: center;
       text-align: center;
+      padding-bottom: 50px;
+      padding-top: 50px;
+      width: 75%;
+    }
+  }
+
+  @media (max-width: 875px) {
+    .work {
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        color: rgb(103, 93, 96);
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+        padding: 10px;
+        padding-top: 60px;
+        z-index: 1;
     }
   }
 
 
+  .contact-me {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: rgb(103, 93, 96);
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    z-index: 1;
+    padding-top: 100px;
+  }
+
+  .contact-form {
+    float: center;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 40px;
+    padding-bottom: 300px;
+    padding-top: 25px;
+  }
+
+img#twitter-icon {
+    position: absolute;
+    float: left; 
+    left: 300px;
+}
+
+img#wordpress-icon {
+    position: absolute;
+    float: left; 
+    left: 500px;
+}
+
+
+img#github-icon {
+    position: absolute;
+    float: left; 
+    left: 700px;
+}
+
+img#linkedin-icon {
+    position: absolute;
+    float: left; 
+    left: 900px;
+}
