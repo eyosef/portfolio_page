@@ -198,8 +198,8 @@ img#css-icon {
 
   @media (max-width: 900px) {
     img#green-thumb {
-      padding-top: 25px;
-      padding-bottom: 25px;
+      padding-top: 50px;
+      padding-bottom: 50px;
       width: 100%;
     }
   }
@@ -252,7 +252,6 @@ img#css-icon {
     float: center;
     font-family: 'Tajawal', sans-serif;
     font-size: 40px;
-    padding-bottom: 200px;
   }
 
   @media (max-width: 450px) {
@@ -265,6 +264,7 @@ img#twitter-icon {
     position: absolute;
     float: left; 
     left: 500px;
+    bottom: 200px;
 }
 
  @media (max-width: 1000px) {
@@ -292,6 +292,7 @@ img#wordpress-icon {
     position: absolute;
     float: left; 
     left: 700px;
+    bottom: 200px;
 }
 
 @media (max-width: 1000px) {
@@ -375,7 +376,6 @@ img#linkedin-icon {
 
 .footer {
     position: absolute;
-    bottom: 0;
     width: 100%;
     height: 70px;
     background-color: rgb(230, 212, 178);
